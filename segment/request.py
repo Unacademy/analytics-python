@@ -7,8 +7,8 @@ from requests.auth import HTTPBasicAuth
 from requests import sessions
 from io import BytesIO
 
-from analytics.version import VERSION
-from analytics.utils import remove_trailing_slash
+from segment.version import VERSION
+from segment.utils import remove_trailing_slash
 
 _session = sessions.Session()
 
